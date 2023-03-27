@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>工作考核表</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>工作考核表</h1>
+    <form id="assessment-form">
+      <h2>工作表現</h2>
+      <p>請評分（1-10分）：</p>
+      <label for="communication">溝通能力：</label>
+      <input type="number" id="communication" name="communication" min="1" max="10" required>
+      <br>
+      <label for="productivity">工作效率：</label>
+      <input type="number" id="productivity" name="productivity" min="1" max="10" required>
+      <br>
+      <label for="quality">工作質量：</label>
+      <input type="number" id="quality" name="quality" min="1" max="10" required>
+      <h2>態度表現</h2>
+      <p>請評分（1-10分）：</p>
+      <label for="punctuality">準時性：</label>
+      <input type="number" id="punctuality" name="punctuality" min="1" max="10" required>
+      <br>
+      <label for="professionalism">專業精神：</label>
+      <input type="number" id="professionalism" name="professionalism" min="1" max="10" required>
+      <br>
+      <input type="submit" value="提交">
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
